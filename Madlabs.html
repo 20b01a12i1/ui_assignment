@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assign7.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>MadLibs</title>
+  </head>
+  <body>
+    <center><h1>Assignment - 7</h1></center>
+    <hr class="horizontal-line" />
+    <div class="container">
+      <div class="left-div">
+        <h3>Home</h3>
+        <h3><a href="Madlabs.html">Mad Libs</a></h3>
+        <h3><a href="Tomthumb.html">Tom Thumbs</a></h3>
+      </div>
+      <hr class="vertical-line" />
+      <div class="right-div">
+        <div class="formdiv">
+          <h2>Mad Libs</h2>
+          <form id="userForm">
+            <div class="tablediv">
+              <div class="row">
+                <label for="person_name">Person Name :</label>
+                <input type="text" id="person_name" />
+              </div>
+              <div class="row">
+                <label for="character">Character :</label>
+                <input type="text" id="character" />
+              </div>
+              <div class="row">
+                <label for="adverb">Adverb :</label>
+                <input type="text" id="adverb" />
+              </div>
+              <div class="row">
+                <label for="adjective">Adjective :</label>
+                <input type="text" id="adjective" />
+              </div>
+            </div>
+
+            <button type="button" id="submitButton">Tell story</button>
+          </form>
+        </div>
+
+        <div id="userInput" class="formdiv">
+          <b>Wendy's Crazy MadLibs Story.</b><br />
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <hr class="horizontal-line" />
+  </body>
+</html>

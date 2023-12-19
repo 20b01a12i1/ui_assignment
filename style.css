@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(151, 152, 149);
+}
+.container {
+  display: flex;
+  
+}
+.left-div {
+  width: 150px; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+.right-div { 
+  flex:1;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(176, 209, 105);
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+.vertical-line {
+  border-right: 5px solid black; 
+  height: 600px; 
+  width:5px;
+}
+.horizontal-line {
+  border-top: 5px solid black;
+  margin: 0 auto;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #2d4c52;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.row {
+  display: table-row;
+}
+label {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 5px;
+  align-items: center;
+  display: table-cell;
+  padding-right: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.tablediv {
+  display: table;
+}
+.formdiv {
+  width: 500px;
+  text-align: center;
+}
+#userInput {
+  width: 500px;
+  display: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-top: 20px;
+  height: 160px;
+  text-align: center;
+}
+span {
+  color: rgb(14, 151, 4);
+}
+a{
+  text-decoration: none;
+  color: black;
+}

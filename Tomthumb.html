@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assignthumb.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Tom Thumbs</title>
+  </head>
+  <body>
+    <center><h1>Assignment - 7</h1></center>
+    <hr class="horizontal-line" />
+    <div class="container">
+      <div class="left-div">
+        <h3>Home</h3>
+        <h3><a href="Madlabs.html">Mad Libs</a></h3>
+        <h3><a href="Tomthumb.html">Tom Thumbs</a></h3>
+      </div>
+      <div class="vertical-line" ></div>
+      <div class="right-div">
+        <div class="formdiv">
+          <h2>Tom Thumb</h2>
+          <form id="userForm">
+            <div class="tablediv">
+              <div class="row">
+                <label for="image_width">Image width (px):</label>
+                <input type="text" id="image_width" />
+              </div>
+              <div class="row">
+                <label for="image_height">Image height (px) :</label>
+                <input type="text" id="image_height" />
+              </div>
+              <div class="row">
+                <label for="no_of_colors">No of Colors :</label>
+                <input type="text" id="no_of_colors" />
+              </div>
+            </div>
+
+            <button type="button" id="submitButton">Calculate File Size</button>
+          </form>
+        </div>
+
+        <div id="userInput" class="formdiv">
+          <p style="color: rgb(14, 151, 4)"></p>
+        </div>
+      </div>
+    </div>
+    <hr class="horizontal-line" />
+  </body>
+</html>
